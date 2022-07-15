@@ -48,7 +48,7 @@ body {
 
 .header {
     margin: 0;
-    padding: 30px 100px;
+    padding: 30px 80px;
     background: #F6F6F6;
 
 }
@@ -186,7 +186,7 @@ body {
 
 .header-nav {
     margin: 0 auto;
-    padding: 30px 100px;
+    padding: 30px 80px;
 
 }
 
@@ -227,7 +227,7 @@ body {
 
 .site-main {
     margin: 0;
-    padding: 10px 100px 0px 100px;
+    padding: 10px 80px 0px 80px;
 }
 
 .main-section {
@@ -361,7 +361,7 @@ body {
 
 .site-section {
     margin: 0;
-    padding: 0 100px;
+    padding: 0 80px;
 }
 
 .section-news {
@@ -379,6 +379,15 @@ body {
 
 .heading {
     margin: 0 0 20px 0;
+    padding: 0;
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.about-title{
+    margin: 50px 0 40px 0;
     padding: 0;
     display: block;
     font-weight: 700;
@@ -630,7 +639,8 @@ body {
     line-height: 23px;
     color: #FFFFFF;
 }
-.footer__bottom--right{
+
+.footer__bottom--right {
     margin: 0;
     padding: 0;
     width: 190px;
@@ -638,6 +648,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.footer__bottom__right--link{
+
+.footer__bottom__right--link {
     text-decoration: none;
 }
