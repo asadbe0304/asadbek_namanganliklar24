@@ -209,7 +209,7 @@ body {
     text-align: center;
     color: #7F7F7F;
     text-decoration: none;
-    transition: color 1s;
+    transition: color .5s;
 }
 
 .header-item+.header-item {
@@ -241,6 +241,19 @@ body {
 .aside-link {
     text-decoration: none;
 }
+
+.aside-img {
+    border-radius: 15px;
+}
+
+.aside-img:hover {
+    box-shadow: 3px 3px 8px 2px #999;
+}
+
+.aside-img:active {
+    box-shadow: 1px 1px 3px 1px #999;
+}
+
 
 
 .main-content {
@@ -386,7 +399,8 @@ body {
     line-height: 28px;
     color: #000000;
 }
-.about-title{
+
+.about-title {
     margin: 50px 0 40px 0;
     padding: 0;
     display: block;
@@ -415,6 +429,22 @@ body {
     background: #F6F6F6;
     border-radius: 15px;
 }
+
+.section__items--link {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.section-item:hover {
+    box-shadow: 3px 3px 8px 2px #999;
+}
+
+.section-item:active {
+    box-shadow: 1px 1px 3px 1px #999;
+}
+
 
 .section-left-content {
     margin: 0 0 0 17px;
@@ -468,6 +498,16 @@ body {
     background: #EAEAEA;
     border-radius: 10px;
     text-decoration: none;
+}
+
+.section-list-bottom-link:hover {
+    box-shadow: 3px 3px 8px 2px #999;
+    color: #4A4B4C;
+}
+
+.section-list-bottom-link:active {
+    box-shadow: 1px 1px 3px 1px #999;
+    color: #000;
 }
 
 /* .section-item::before{
@@ -652,3 +692,150 @@ body {
 .footer__bottom__right--link {
     text-decoration: none;
 }
+
+/* article section styles  */
+.site__article {
+    margin: 0;
+    padding: 50px 80px 0 80px;
+}
+
+.article__news {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.article__desc {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.article__title {
+    margin: 30px 0 20px 0;
+    padding: 0;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+
+}
+
+.article__left--content {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-bottom: 1px solid #D2D2D2;
+    ;
+}
+
+.article__text {
+    margin: 24px 0 0 0;
+    padding: 0;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.article__list {
+    margin: 0;
+    padding: 0;
+    width: 797px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+
+}
+
+.article__item {
+    margin: 0 0 10px 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 15px;
+}
+
+.article__text:last-child {
+    margin-bottom: 50px;
+}
+
+.article__bottom {
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.article__content--bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.article__list {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom__list{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+}
+.bottom__item {
+    margin: 0;
+    padding: 0;
+    width: 393px;
+    height: 207px;
+    padding: 20px 18px 15px 17px;
+    background: #F6F6F6;
+    border-radius: 15px;
+}
+.bottom__item:hover {
+    box-shadow: 3px 3px 8px 2px #999;
+}
+
+.bottom__item:active {
+    box-shadow: 1px 1px 3px 1px #999;
+}
+
+.article__bottom--link{
+    text-decoration: none;
+}
+/* @media screen and (max-width: 992px) {
+    .header-nav .nav-list .header-item a {
+        float: left;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        justify-content: space-between;
+        color: #555
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .nav-list a:hover {
+        background-color: #ddd;
+        color: black;
+    }
+
+    .nav-list a {
+        float: none;
+        width: 100%;
+    }
+} */
