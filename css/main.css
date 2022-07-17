@@ -788,7 +788,8 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-.bottom__list{
+
+.bottom__list {
     margin: 0;
     padding: 0;
     display: flex;
@@ -796,6 +797,7 @@ body {
     align-items: flex-start;
     list-style: none;
 }
+
 .bottom__item {
     margin: 0;
     padding: 0;
@@ -805,6 +807,7 @@ body {
     background: #F6F6F6;
     border-radius: 15px;
 }
+
 .bottom__item:hover {
     box-shadow: 3px 3px 8px 2px #999;
 }
@@ -813,9 +816,206 @@ body {
     box-shadow: 1px 1px 3px 1px #999;
 }
 
-.article__bottom--link{
+.article__bottom--link {
     text-decoration: none;
 }
+
+/* article section styles end  */
+/* article section styles start  */
+.site__form {
+    margin: 0;
+    padding: 0 80px;
+}
+
+.form__title--section {
+    margin: 0 0 20px 0;
+    padding: 0 80px;
+}
+
+.form__title {
+    margin: 30pX 0px 20px 0px;
+    padding: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: sans-serif;
+    color: #000000;
+}
+
+.form__section {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form__left {
+    margin: 0;
+    padding: 0;
+    width: 696px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.form__left--content {
+    margin: 0;
+    padding: 0;
+    width: 696px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left__input--inner::placeholder {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.form__left--input {
+    margin: 0;
+    padding: 18px 20px;
+    width: 343px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.form__left--input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.form__left__content--inner {
+    margin: 0;
+    padding: 0;
+    width: 696px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+
+.left__input--inner {
+    margin: 10px 0;
+    padding: 18px 20px;
+    width: 696px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.form__left__content--inner::placeholder {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.input__textarea {
+    margin: 0;
+    padding: 18px 20px;
+    appearance: none;
+    resize: none;
+    width: 696px;
+    height: 180px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.input__textarea::placeholder {
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.form__right {
+    margin: 0 0 0 10px;
+    padding: 40px 0 40px 25px;
+    width: 494px;
+    background: #F6F6F6;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start ;
+
+}
+
+.form__title {
+    margin:  0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.form__link {
+    margin: 5px 0 20px 0;
+    padding: 0 0 20px 0;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.form__addres {
+    margin: 4px 0 0 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.form__btn {
+    margin: 20px 0;
+    padding: 17px 30px;
+    background: #7297EF;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1px solid #7297EF;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+.form__btn:hover{
+    opacity: 0.8;
+}
+.form__btn:active{
+    opacity: 0.6;
+}
+
 /* @media screen and (max-width: 992px) {
     .header-nav .nav-list .header-item a {
         float: left;
